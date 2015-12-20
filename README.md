@@ -1,12 +1,7 @@
-# TSP problem resolved with a Genetic Algorithm
+# TSP problem resolved with a <s>Genetic</s> heuristic algorithm
 
-Solve the TSP (Travelling salesman problem) using a Genetic Algorithm (heuristic
-approach).
-
-## Genetic Algorithm
-
-This genetic algorithm uses an heuristic approach, that means that the result
-change continuously during the selection.
+Solve the TSP (Travelling salesman problem) using an <s>Genetic</s> heuristic
+algorithm guided by the search for a minimum path
 
 ### The selection
 
