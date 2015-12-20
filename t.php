@@ -31,7 +31,7 @@ $plan->addPlace(new Place('genova', new Point(44.4466254, 9.1456153)));
 $plan->addPlace(new Place('ovada', new Point(44.6361571, 8.6396762)));
 $plan->addPlace(new Place('savona', new Point(44.3425496, 8.4293891)));
 
-$life = new Life(new Selection(500));
+$life = new Life(new Selection(200));
 $roadmap = $life->getShortestPath($plan);
 
 echo "Distance: {$roadmap->distance()}" . PHP_EOL . PHP_EOL;
